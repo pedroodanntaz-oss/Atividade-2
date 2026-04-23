@@ -1,0 +1,33 @@
+algoritmo "ProximoDia"
+
+var
+   dia: caractere
+
+inicio
+   escreva("Digite um dia da semana por extenso: ")
+   leia(dia)
+
+   escolha (dia)
+      caso "domingo"
+         escreva("Segunda-feira")
+      caso "segunda-feira"
+         escreva("Terça-feira")
+      caso "terca-feira"
+         escreva("Quarta-feira")
+      caso "terça-feira"
+         escreva("Quarta-feira")
+      caso "quarta-feira"
+         escreva("Quinta-feira")
+      caso "quinta-feira"
+         escreva("Sexta-feira")
+      caso "sexta-feira"
+         escreva("Sábado")
+      caso "sabado"
+         escreva("Domingo")
+      caso "sábado"
+         escreva("Domingo")
+      outrocaso
+         escreva("Dia inválido! Tente novamente.")
+   fimescolha
+
+fimalgoritmo
