@@ -1,0 +1,18 @@
+algoritmo "Tabuada"
+
+var
+   numero, i: inteiro
+
+inicio
+   escreva("Digite um número de 1 a 10: ")
+   leia(numero)
+
+   se (numero >= 1) e (numero <= 10) entao
+      para i de 1 ate 10 faca
+         escreva(numero, " x ", i, " = ", numero * i, "\n")
+      fimpara
+   senao
+      escreva("Número inválido! Digite um valor entre 1 e 10.")
+   fimse
+
+fimalgoritmo
